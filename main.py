@@ -1,5 +1,5 @@
 import wx
-
+from utils_json import *
 class MyFrame(wx.Frame):
     def __init__(self, parent, id, title):
         super(MyFrame, self).__init__(parent, id, title, size=(600, 400))
